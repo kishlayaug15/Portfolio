@@ -21,10 +21,10 @@ local_css("/Users/kishl/Downloads/My Projects/Portfolio/Style/style.css")
 
 lottie_profile = load_lottie("https://lottie.host/817ea266-9538-44a5-b84f-f7a2f573457a/en9bCF8TZm.json")
 lottie_contact = load_lottie("https://lottie.host/56cb3b62-fd1b-46bd-b372-40b76789e182/5dVrec5D7A.json")
-pbi = Image.open("/Users/kishl/Downloads/My Projects/Portfolio/Images/salepbi.png")
-mlmodel = Image.open("/Users/kishl/Downloads/My Projects/Portfolio/Images/mlmodel.png")
-visualize = Image.open("/Users/kishl/Downloads/My Projects/Portfolio/Images/visualize.png")
-digit = Image.open("/Users/kishl/Downloads/My Projects/Portfolio/Images/digitrecognize.png")
+pbi = Image.open("https://github.com/kishlayaug15/Portfolio/blob/main/Images/salepbi.png")
+mlmodel = Image.open("https://github.com/kishlayaug15/Portfolio/blob/main/Images/mlmodel.png")
+visualize = Image.open("https://github.com/kishlayaug15/Portfolio/blob/main/Images/visualize.png")
+digit = Image.open("https://github.com/kishlayaug15/Portfolio/blob/main/Images/digitrecognize.png")
 
 
 page_bg_img = f"""
@@ -205,4 +205,5 @@ if selected == "Contact":
       with left_col:
             st.markdown(contact_form, unsafe_allow_html= True)
       with right_col:
+
             st_lottie(lottie_contact,height=245,width=450)
