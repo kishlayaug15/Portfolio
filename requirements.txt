@@ -1,5 +1,4 @@
-python==3.10.11
-streamlit
+streamlit==1.23.0
 requests
 streamlit_lottie
 streamlit_option_menu
